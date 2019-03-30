@@ -1,0 +1,4 @@
+build:Program.cs
+	csc /r:requiredDLLs/System.Net.Http.dll /r:requiredDLLs/System.Text.RegularExpressions.dll /r:requiredDLLs/System.Collections.dll /r:requiredDLLs/System.Net.dll Program.cs
+	
+	
